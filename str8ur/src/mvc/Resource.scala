@@ -5,5 +5,5 @@ import net.garethrogers.str8ur.HttpResponse
 import scala.collection.mutable.HashMap
 import scala.collection.immutable.Queue
 
-trait Controller extends Handler:
+trait Resource extends Handler:
   var response: HttpResponse = HttpResponse.ok
